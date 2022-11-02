@@ -1,0 +1,43 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    height: 10vh;
+    padding: 0 1vw;
+    background: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav-li a {
+    margin-right: 25px;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-nav-li:last-child a {
+    margin: 0;
+}
+
+.header-nav-li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: 90vh;
+    background: rgb(0, 0, 0);
+}
