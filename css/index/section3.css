@@ -1,0 +1,36 @@
+.section3 {
+    margin-top: 50px;
+}
+
+.section3-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background: rgb(38, 38, 38);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.skill img {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-weight: bold;
+}
