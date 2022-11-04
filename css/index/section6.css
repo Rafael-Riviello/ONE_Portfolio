@@ -1,0 +1,81 @@
+.section6 {
+    margin-top: 50px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.project-img {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-texts h4 {
+    font-weight: bold;
+}
+
+.project-buttons {
+    width: 314px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-repository {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.project-repository div {
+    transition: 0.25s;
+}
+
+.project-repository div:hover {
+    font-size: 1.25rem;
+}
+
+.project-demo {
+    background-color: rgb(0, 255, 0);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.project-demo div {
+    transition: 0.25s;
+}
+
+.project-demo div:hover {
+    font-size: 1.25rem;
+}
