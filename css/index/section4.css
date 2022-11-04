@@ -1,8 +1,8 @@
-.section3 {
+.section4 {
     margin-top: 50px;
 }
 
-.skills {
+.hobbies {
     height: 150px;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
     gap: 10px;
 }
 
-.skill {
+.hobby {
     width: 150px;
     height: 150px;
     padding: 10px;
@@ -23,17 +23,17 @@
     transition: width 0.25s, height 0.25s;
 }
 
-.skill:hover {
+.hobby:hover {
     width: 200px;
     height: 200px;
     border: 1px solid rgb(0, 255, 0);
 }
 
-.skill img {
+.hobby img {
     width: 30px;
     margin-bottom: 10px;
 }
 
-.skill p {
+.hobby p {
     font-weight: bold;
 }

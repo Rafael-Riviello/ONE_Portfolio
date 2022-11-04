@@ -1,6 +1,8 @@
 .section2 {
     margin-top: 50px;
     background-color: rgb(10, 10, 10);
+    border-top: 1px solid rgb(0, 255, 0);
+    border-bottom: 1px solid rgb(0, 255, 0);
     align-items: center;
 }
 

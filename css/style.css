@@ -38,6 +38,12 @@ header {
     margin: 0 auto;
 }
 
+.title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 h1 {
