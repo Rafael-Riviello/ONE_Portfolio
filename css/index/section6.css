@@ -79,3 +79,31 @@
 .project-demo div:hover {
     font-size: 1.25rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .projects {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-texts {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        width: 100vw;
+        padding: 50px 0 50px 0;
+        background-color: rgb(10, 10, 10);
+    }
+
+    .project-img {
+        display: none;
+    }
+}

@@ -18,3 +18,13 @@
 .section2-aboutme p {
     width: calc(100% - 350px);
 }
+
+@media screen and (max-width: 1200px) {
+    .section2-aboutme h3 {
+        text-align: center;
+    }
+
+    .section2-aboutme p {
+        width: 100vw;
+    }
+}
