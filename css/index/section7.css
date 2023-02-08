@@ -1,0 +1,56 @@
+.section7 {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: rgb(10, 10, 10);
+    border-top: 1px solid rgb(0, 255, 0);
+    border-bottom: 1px solid rgb(0, 255, 0);
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contato:hover {
+    color:#0f0;
+}
+
+.contato img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 10px 0;
+    border-radius: 10px;
+    object-fit: scale-down;
+}
+
+.contato-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-text2 {
+    font-size: 0.75rem;
+    color: #aaa;
+}
+
+@media screen and (max-width: 1200px) {
+    .contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contato {
+        margin-bottom: 25px;
+        flex-direction: column;
+    }
+}
